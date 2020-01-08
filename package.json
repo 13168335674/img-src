@@ -1,0 +1,26 @@
+{
+  "name": "wuhen",
+  "version": "0.0.1",
+  "description": "欢迎你呀!",
+  "main": "index.js",
+  "authors": {
+    "name": "无痕",
+    "email": "569643843@qq.com"
+  },
+  "repository": "https://github.com/13189449986/New-blog.git/wuhen",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "webpack": "^4.41.5"
+  }
+}
