@@ -3,7 +3,7 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-31 16:05:19
  * @LastEditors  : ZStop
- * @LastEditTime : 2020-01-08 14:44:40
+ * @LastEditTime : 2020-01-08 14:48:36
  * @Description: 查找指定文件夹的所有markdown文件。
  * 根据参数找出要所有要替换的图片，下载所有图片，替换图片的地址。
  */
@@ -57,6 +57,7 @@ function jianshu() {
   // 上传图片之后
   // 脚本会把以前的外链替换成云端地址+拼接一个图片名
   markdownImage.updateOption({
+    replace_image_url: "https://upload-images.jianshu.io/upload_images/",
     new_image_url: "https://github.com/13189449986/img-src/", // 图片上传的地址
     add_end: "?raw=true", // github图片地址有后缀 直接进去是仓库
   });
@@ -66,6 +67,6 @@ function jianshu() {
   markdownImage.replaceMarkdown();
 }
 
-jueJin();
+// jueJin();
 
 jianshu();
