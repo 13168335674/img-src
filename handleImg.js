@@ -3,7 +3,7 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-31 16:05:19
  * @LastEditors  : ZStop
- * @LastEditTime : 2020-01-08 14:43:34
+ * @LastEditTime : 2020-01-08 14:44:40
  * @Description: 查找指定文件夹的所有markdown文件。
  * 根据参数找出要所有要替换的图片，下载所有图片，替换图片的地址。
  */
@@ -67,3 +67,5 @@ function jianshu() {
 }
 
 jueJin();
+
+jianshu();
