@@ -3,7 +3,7 @@
  * @Author: OBKoro1
  * @Created_time: 2019-05-31 16:05:19
  * @LastEditors  : ZStop
- * @LastEditTime : 2020-01-08 14:48:36
+ * @LastEditTime : 2020-01-08 15:10:35
  * @Description: 查找指定文件夹的所有markdown文件。
  * 根据参数找出要所有要替换的图片，下载所有图片，替换图片的地址。
  */
@@ -46,6 +46,7 @@ function jianshu() {
     read_markdown_src: "./sub/blog/docs/blog/", // 要查找markdown文件的文件夹地址
     down_img_src: "./img", // 下载图片到这个文件夹
     var_number: 0, // url前半部分的变量数量 比如上面的日期: /2019/5/20/、/2018/6/16/
+    downFileNameCallBack: "/^(w|-)+/",
   };
 
   // 初始化
