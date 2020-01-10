@@ -8,6 +8,14 @@
 
 ## Usage - 用法
 
+- 修改图传到 github img-src 仓库并修改文件
+
+  - `cd /copy_item_obkoro/`
+  - `node handleimg.js`
+  - `cd /img-src/sub/blog/docs/.vuepress/`
+  - 控制台生成 `vuepress sidebar` 配置 `node node.js`
+  - 修改替换 `config.js` `sidebar` 里的 `blog` 字段
+
 - 子仓库用法
   - add <br>
     `git subtree add --prefix=sub/blog sub-blog master --squash`
